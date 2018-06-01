@@ -33,20 +33,20 @@ class App extends  React.Component {
     }
 
     render() {
-        if (this.state.username) {
+        // if (this.state.username) {
                 return (
                     <div>
                         <div>Welcome to my App</div>
                         <Board />
                     </div>
                 )
-        } else {
-            return (
-                <div>
-                    <Signup socket={this.socket}/>
-                </div>    
-            )
-        }
+        // } else {
+        //     return (
+        //         <div>
+        //             <Signup socket={this.socket}/>
+        //         </div>    
+        //     )
+        // }
     } 
 
 }
